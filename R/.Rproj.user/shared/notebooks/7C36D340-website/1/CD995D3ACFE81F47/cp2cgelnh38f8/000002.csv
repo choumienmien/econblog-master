@@ -1,0 +1,53 @@
+"0","library(dplyr)"
+"2","
+Attaching package: ．dplyr・
+
+"
+"2","The following objects are masked from ．package:stats・:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ．package:base・:
+
+    intersect, setdiff, setequal, union
+
+"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","library(ggplot2)"
+"0","library(magrittr)"
+"0","library(plotly)"
+"2","
+Attaching package: ．plotly・
+
+"
+"2","The following object is masked from ．package:ggplot2・:
+
+    last_plot
+
+"
+"2","The following object is masked from ．package:stats・:
+
+    filter
+
+"
+"2","The following object is masked from ．package:graphics・:
+
+    layout
+
+"
+"0","knitr::opts_chunk$set(fig.showtext=TRUE)"
+"0","library(showtext)"
+"2","Loading required package: sysfonts
+"
+"2","Loading required package: showtextdb
+"
+"0","showtext_auto()"
+"0","Sys.setenv(""plotly_username""=""JaneUsername"")"
+"0","Sys.setenv(""plotly_api_key""=""gEQFJHOvUX9XHbx7GeJQ"")"

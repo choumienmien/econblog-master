@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" >
+<html>
+<head><link rel="shortcut icon" href="http://gotac.myweb.hinet.net/gotac.ico" >
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<!-- 系統開發:金諄資訊股份有限公司 (02) 2759-6506 -->
+
+
+<title>桃園市桃園市產業及社福外籍勞工人數－按開放項目分查詢結果網頁</title>
+<style type="text/css">
+<!--
+body {
+background-color: #FFFFFF;
+}
+body,td,th {
+	font-size: 14;
+	color: #000066;
+}
+
+a:active {
+	text-decoration: none;
+}
+a:link {
+	color: #000066;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #330066;
+}
+a:hover {
+	text-decoration: underline;
+}
+ 
+th,.stycode {
+	background-color: #E6FFF5;
+	font-weight: lighter;
+	color: #000066;
+	}
+.stytitle {
+	font-weight: bold;
+	color: #000066;
+	background-color: #BBF;
+}
+.stydata,.styrate,.{
+	background-color: #FFFFEC;
+	color: #0000CC;
+	background-position: center center;
+}
+ 
+
+.stytable {
+	background-color: #E6FFFF;
+	background-position: center center;
+}
+
+.headcls {
+	font-size: 24;
+	color: #000066;
+	font-weight: bold;
+}
+.msgcls {
+	color: #FF0000;
+}
+.desccls {
+	color: #000099;
+}
+ 
+ .tblcls {
+     margin-left:15px;
+}
+
+-->
+</style>
+</head>
+
+
+<script language="JavaScript" src="stcom.js"></script>
+<script>
+var cyclekind2=2;
+function openWindowPlus(ltype,lsysid, lparm,ldframe,ldposx,ldposy,ldheight,ldwidth){
+}
+</script>
+
+<body  onLoad="MM_preloadImages('prvbtn.gif','prvbtn_f2.gif')" >
+<form   name="form1">
+
+<table summary='查詢結果網頁表格資料'  width="100%" height="55" border="0">
+  <tr align="center" valign="middle"  >
+    <td colspan=5 class="headcls">桃園市產業及社福外籍勞工人數－按開放項目分</td>          
+  </tr>
+  <tr align="center" valign="middle"  >
+    <td align=left width="30%">單位：人</td>          
+    <td></td>          
+    <td></td>          
+    <td></td>          
+    <td align=right width="30%">表格數：1</td>          
+  </tr>  
+  <tr><td height="15" colspan=5 background="imageline2.gif">&nbsp;</td>          
+  </tr>
+</table>
+
+ <table summary='統計資料庫查詢結果網頁表格資料'  border="1" cellpadding="1" cellspacing="1" class="tblcls">
+
+    <tr ><th width="56"  align="center" valign="middle" scope="col" class="stytitle">　　　　</th>
+
+ <th  width="80"  align="center" scope="col" class="stytitle">產業外籍勞工合計</th>     <th  width="80"  align="center" scope="col" class="stytitle">　三Ｋ行業專案</th>     <th  width="80"  align="center" scope="col" class="stytitle">　附加外籍勞工</th>       
+    </tr>
+
+
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>97年底</th>
+  <td class="stydata" align="right" nowrap> 53,926 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=97am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">    5,049</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=97am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">        0</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>98年底</th>
+  <td class="stydata" align="right" nowrap> 47,472 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=98am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">    7,482</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=98am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">        0</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>99年底</th>
+  <td class="stydata" align="right" nowrap> 51,340</td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=99am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   14,665</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=99am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">        0</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>100年底</th>
+  <td class="stydata" align="right" nowrap> 56,492 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=100am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   29,228</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=100am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">        0</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>101年底</th>
+  <td class="stydata" align="right" nowrap> 57,729 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=101am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   40,017</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=101am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">        0</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>102年底</th>
+  <td class="stydata" align="right" nowrap> 64,813 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=102am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   47,235</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=102am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">    6,031</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>103年底</th>
+  <td class="stydata" align="right" nowrap> 73,941 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=103am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   52,592</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=103am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">   12,408</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>104年底</th>
+  <td class="stydata" align="right" nowrap> 77,847 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=104am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   54,556</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=104am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">   15,767</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>105年底</th>
+  <td class="stydata" align="right" nowrap> 81,331 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=105am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   57,463</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=105am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">   17,264</a> </td>          
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row" nowrap>106年底</th>
+  <td class="stydata" align="right" nowrap> 89,683 </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=106am=0a((f=213910080ac1=11 a(c2>=0) ac3>=0ac5>=0 and( c4=3500)  )) ');">   61,388</a> </td>           <td class="stydata" align="right" nowrap> <a  onKeydown=nullproc();  onMouseDown="openWindow(1,239,' y=106am=0a((f=213910080ac1=19ac2>=0ac3>=0ac5>=0 and( c4=3500)  )) ');">   22,175</a> </td>          
+   </tr>
+   
+ </table>
+
+ <desc><span class="msgcls"></span></desc>
+ <desc><span class="desccls"></span></desc>
+</form>
+</body>
+</html>
+
+
+
+
+
+ 

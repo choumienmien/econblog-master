@@ -1,0 +1,20 @@
+"0","a <- ggplot(FTnumbers, aes(year,rateofchange,size=ratio)) +"
+"0","  geom_point() +"
+"0","  labs(x=""年份"","
+"0","       y=""移工較去年增減率"","
+"0","       title=""移工與台灣就業市場關係"","
+"0","       subtitle=""單位：百分比(%)"","
+"0","       caption=""資料來源:勞動部勞動統計查詢網"")+"
+"0","  theme_classic()"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","ggplotly(a)%>%"
+"0","  rangeslider()"
+"2","We recommend that you use the dev version of ggplot2 with `ggplotly()`
+Install it with: `devtools::install_github('hadley/ggplot2')`
+"

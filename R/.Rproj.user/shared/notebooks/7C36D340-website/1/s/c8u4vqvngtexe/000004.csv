@@ -1,0 +1,5 @@
+"0","KKK <- read.table(""D:/econblog/90_106_3k.csv"", header = TRUE , sep = "","")"
+"0","KKK %<>%"
+"0","  mutate(year=year+1911) %<>%"
+"0","  filter(year>=2012)"
+"0","KKK$year <- as.integer(KKK$year)"

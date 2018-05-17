@@ -1,0 +1,12 @@
+"0","FTnumbers <- read.table(""D:/econblog/86_106FTnumbers.csv"", header = TRUE , sep = "","")"
+"2","Warning message:
+"
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","FTnumbers %<>% mutate(year=year+1911,"
+"0","                     ratio=round(foreigner/taiwan*100,2)"
+"0","                     )"
+"0","FTnumbers %<>% filter(year>=2007)"
