@@ -14,15 +14,9 @@ library(showtext)
 showtext_auto()
 library(plotly)
 ```
-```
-在全球化的脈絡下，國際移工流動的速度非常的頻繁，台灣在1989年因應國家建設開始聘用國際移工，接下來在1992 年《就業服務法》通過，其中設有外籍勞工專章，允許民間產業引進外勞，並且陸續開放各產業來聘僱外國人。至今開放25年，移工的人數已達67萬人多，橫跨三級產業，不論是在農業（船員）還是在社福的看護都可以看到移工的身影，移工儼然成為台灣不可或缺的勞動力。
-```
-```
-【台灣工業部門缺工嗎？】
-移工與台灣就業者之間的人數差距不斷地縮短，2017年「台灣就業移工比」為17:1
-```
+
 ```{r include=FALSE}
-FTnumbers <- read.table("/Users/Choumeinmein/Documents/GitHub/econblog-master/86_106FTnumbers.csv", header = TRUE , sep = ",")
+FTnumbers <- read.table("D:/R/Github/econblog/86_106FTnumbers.csv", header = TRUE , sep = ",")
 FTnumbers %<>% mutate(year=year+1911,
                      ratio=round(foreigner/taiwan*100,2),
                      rateofchange=round(rateofchange,2))
@@ -40,8 +34,6 @@ a <- ggplot(FTnumbers, aes(year,rateofchange,size=ratio)) +
   theme_minimal()
 a
 ```
-
-
 ```{r echo=FALSE}
 plot_ly(FTnumbers,x = ~year,y = ~rateofchange,size = ~ratio,
         hoverinfo = 'text',
@@ -50,7 +42,6 @@ plot_ly(FTnumbers,x = ~year,y = ~rateofchange,size = ~ratio,
                       '</br> 移工與台勞的比例: ', ratio)
         ) %>% 
   layout(showlegend = FALSE,
-         
          title='移工與台灣就業市場關係',
          yaxis = list(title = "移工較去年增減率(單位：百分比)"),
          xaxis = list(title = "年份")
@@ -67,7 +58,7 @@ plot_ly(FTnumbers,x = ~year,y = ~rateofchange,size = ~ratio,
 全台最多移工的地區，分別是桃園、台中、新北，從歷年的數據來看，桃園一直居於首位，將近1/6的移工選擇在桃園就業。細分桃園移工工作的產業類別大多為產業外籍勞工，只有少部分（1/5）的外籍勞工在社福產業工作。
 ```
 ```{r include=FALSE}
-city2 <- read.table("/Users/Choumeinmein/Documents/GitHub/econblog-master/90_106city2.csv", header = TRUE , sep = ",")
+city2 <- read.table("D:/R/Github/econblog/90_106city2.csv", header = TRUE , sep = ",")
 city2 %<>% filter(year>=2010)
 ```
 ```{r echo=FALSE}
@@ -91,7 +82,7 @@ b <- ggplot(city2,
 b
 ```
 ```{r include=FALSE}
-Taoyuan <- read.table("/Users/Choumeinmein/Documents/GitHub/econblog-master/Taoyuan.csv", header = TRUE , sep = ",")
+Taoyuan <- read.table("D:/R/Github/econblog/Taoyuan.csv", header = TRUE , sep = ",")
 Taoyuan %<>%
   mutate(year=year+1911)%<>%
   filter(year>=2012)
@@ -117,7 +108,7 @@ c
 桃園為何那麼多產業移工？主要原因為桃園是全臺第一工業科技大市，臺灣五百大製造業有超過三分之一在桃園設廠，工業產值常居全臺之冠，桃園擁有32個報編工業區，從傳統產業到高科技產業聚落。另外因應「3K行業專案」和2013年新增「外加就業安定費附加外勞數額」更間接的推動廠商多僱用移工。而桃園的外籍勞工主要從事的工作項目多為：三Ｋ行業專案、附加外籍勞工等的製造業產業
 ```
 ```{r include=FALSE}
-KKK <- read.table("/Users/Choumeinmein/Documents/GitHub/econblog-master/90_106_3k.csv", header = TRUE , sep = ",")
+KKK <- read.table("D:/R/Github/econblog/90_106_3k.csv", header = TRUE , sep = ",")
 KKK %<>%
   mutate(year=year+1911) %<>%
   filter(year>=2012)
@@ -139,7 +130,3 @@ d <- ggplot(KKK,
   theme_minimal()
 d
 ```
-```
-
-```
-

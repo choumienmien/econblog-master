@@ -1,0 +1,5 @@
+"0","FTnumbers <- read.table(""D:/econblog/86_106FTnumbers.csv"", header = TRUE , sep = "","")"
+"0","FTnumbers %<>% mutate(year=year+1911,"
+"0","                     ratio=round(foreigner/taiwan*100,2),"
+"0","                     rateofchange=round(rateofchange,2))"
+"0","FTnumbers %<>% filter(year>=2002)"

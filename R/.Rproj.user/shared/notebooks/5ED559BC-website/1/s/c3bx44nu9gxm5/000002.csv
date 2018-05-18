@@ -1,0 +1,2 @@
+"0","city2 <- read.table(""D:/R/Github/econblog/90_106city2.csv"", header = TRUE , sep = "","")"
+"0","city2 %<>% filter(year>=2010)"

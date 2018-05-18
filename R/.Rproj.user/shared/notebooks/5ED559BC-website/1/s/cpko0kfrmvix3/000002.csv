@@ -1,0 +1,5 @@
+"0","Taoyuan <- read.table(""D:/R/Github/econblog/Taoyuan.csv"", header = TRUE , sep = "","")"
+"0","Taoyuan %<>%"
+"0","  mutate(year=year+1911)%<>%"
+"0","  filter(year>=2012)"
+"0","Taoyuan$year <- as.integer(Taoyuan$year)"
