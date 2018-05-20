@@ -2478,8 +2478,14 @@ html.no-csstransitions .home-content__main {
   max-height: 100%
   display:  flex;
   position:  relative
+<<<<<<< HEAD
 }
 
+=======
+
+ margin: -100px 0 0 -300px;
+}
+>>>>>>> 58a32e1d9e109da9dcd145c0b525c0146de75274
 .masonry:after {
   content: "";
   display: table;
