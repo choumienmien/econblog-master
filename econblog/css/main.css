@@ -2253,7 +2253,7 @@ html.no-csstransitions .home-content__main {
 }
 .process__col {
   position: relative;
-  min-height: 24.6rem;
+  min-height: 13rem;
 }
 .process__col::before {
   content: attr(data-item);
@@ -2888,7 +2888,7 @@ html.no-csstransitions .home-content__main {
   padding-top: 4.2rem;
   padding-bottom: 4.2rem;
   background-color: #050505;
-  background-image: url(../images/stats-bg.jpg);
+  background-image: url(../images/stats-bg2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2987,7 +2987,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-  padding-top: 21rem;
+  padding-top: 8rem;
   padding-bottom: 10.2rem;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
