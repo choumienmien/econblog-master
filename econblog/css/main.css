@@ -2253,7 +2253,11 @@ html.no-csstransitions .home-content__main {
 }
 .process__col {
   position: relative;
+<<<<<<< HEAD
+  min-height: 10rem;
+=======
   min-height: 13rem;
+>>>>>>> 4a9badbc083ccdf856be62055a745d04368ee5a0
 }
 .process__col::before {
   content: attr(data-item);
@@ -2466,10 +2470,33 @@ html.no-csstransitions .home-content__main {
 /* -------------------------------------------------------------------
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
+
+
 .masonry-wrap {
   margin-top: 6rem;
   max-width: none;
   width: 1380px;
+}
+.masonry2 {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px; /* Adjustment for the gutter */
+  width: 100%;
+}
+
+.masonry2s-brick {
+  flex: auto;
+  height: 250px;
+  min-width: 150px;
+  margin: 0 8px 8px 0; /* Some gutter */
+}
+
+.masonry-wrap2 {
+  max-width:100%;
+  width: 1380px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
 }
 
 .masonry-wrap2 {
@@ -2492,6 +2519,7 @@ html.no-csstransitions .home-content__main {
 .masonry__brick {
   float: left;
   padding: 0;
+
 }
 
 .item-folio {
@@ -2650,6 +2678,9 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
+
+
+
 @media only screen and (max-width: 1500px) {
   .masonry-wrap {
     width: 1200px;
