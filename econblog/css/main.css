@@ -2475,22 +2475,33 @@ html.no-csstransitions .home-content__main {
 .masonry-wrap {
   margin-top: 6rem;
   max-width: 100%;
+<<<<<<< HEAD
   position:relative;
 
+=======
+  width: 1380px;
+>>>>>>> 1fbf028a949afe6f8a6579d7fed2932daf9a0fbb
 }
 .masonry2 {
   display: flex;
   flex-flow: row wrap;
   margin-left: -8px; /* Adjustment for the gutter */
   mix-width: 100%;
+<<<<<<< HEAD
   position:relative;
+=======
+>>>>>>> 1fbf028a949afe6f8a6579d7fed2932daf9a0fbb
 }
 
 .masonry2s-brick {
   flex: auto;
   height: 250px;
   min-width: 100%;
+<<<<<<< HEAD
   position:relative;
+=======
+  min-height: 100%
+>>>>>>> 1fbf028a949afe6f8a6579d7fed2932daf9a0fbb
   margin: 0 8px 8px 0; /* Some gutter */
 }
 
@@ -2500,7 +2511,20 @@ html.no-csstransitions .home-content__main {
   display:absolute;
   align-items: center;
   justify-content:center;
+<<<<<<< HEAD
   position:relative;
+=======
+
+
+}
+
+.masonry-wrap2 {
+  width: 450px;
+  max-width:  100%;
+  max-height: 100%
+  display:  flex;
+  position:  relative
+>>>>>>> 1fbf028a949afe6f8a6579d7fed2932daf9a0fbb
 }
 
 .masonry:after {
