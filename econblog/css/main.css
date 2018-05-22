@@ -2474,29 +2474,31 @@ html.no-csstransitions .home-content__main {
 
 .masonry-wrap {
   margin-top: 6rem;
-  max-width: none;
+  max-width: 100%;
   width: 1380px;
 }
 .masonry2 {
   display: flex;
   flex-flow: row wrap;
   margin-left: -8px; /* Adjustment for the gutter */
-  width: 100%;
+  mix-width: 100%;
 }
 
 .masonry2s-brick {
   flex: auto;
   height: 250px;
-  min-width: 150px;
+  min-width: 100%;
+  min-height: 100%
   margin: 0 8px 8px 0; /* Some gutter */
 }
 
 .masonry-wrap2 {
   max-width:100%;
   width: 1380px;
-  display:flex;
+  display:absolute;
   align-items: center;
   justify-content:center;
+
 
 }
 
