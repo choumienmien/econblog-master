@@ -2253,7 +2253,11 @@ html.no-csstransitions .home-content__main {
 }
 .process__col {
   position: relative;
+<<<<<<< HEAD
   min-height: 10rem;
+=======
+  min-height: 13rem;
+>>>>>>> 4a9badbc083ccdf856be62055a745d04368ee5a0
 }
 .process__col::before {
   content: attr(data-item);
@@ -2493,6 +2497,14 @@ html.no-csstransitions .home-content__main {
   display:flex;
   align-items: center;
   justify-content:center;
+}
+
+.masonry-wrap2 {
+  width: 450px;
+  max-width:  100%;
+  max-height: 100%
+  display:  flex;
+  position:  relative
 }
 
 .masonry:after {
