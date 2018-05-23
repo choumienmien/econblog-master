@@ -2695,7 +2695,7 @@ html.no-csstransitions .home-content__main {
 
    .masonry .grid-sizer,
    .masonry__brick {
-     width: 600px;
+     width: 650px;
    }
  }
 
@@ -2706,7 +2706,7 @@ html.no-csstransitions .home-content__main {
 
    .masonry .grid-sizer,
    .masonry__brick {
-     width: 460px;
+     width: 600px;
    }
  }
 
@@ -2717,7 +2717,7 @@ html.no-csstransitions .home-content__main {
 
    .masonry .grid-sizer,
    .masonry__brick {
-     width: 430px;
+     width: 570px;
    }
  }
 
@@ -2729,7 +2729,7 @@ html.no-csstransitions .home-content__main {
 
   .masonry .grid-sizer,
   .masonry__brick {
-    width: 400px;
+    width: 550px;
   }
 }
 @media only screen and (max-width: 1350px) {
@@ -2739,7 +2739,7 @@ html.no-csstransitions .home-content__main {
 
   .masonry .grid-sizer,
   .masonry__brick {
-    width: 386px;
+    width: 500px;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -2750,7 +2750,7 @@ html.no-csstransitions .home-content__main {
   .masonry .grid-sizer,
   .masonry__brick {
     width: 475px;
-    margin: auto;
+
   }
 }
 @media only screen and (max-width: 1200px) {
