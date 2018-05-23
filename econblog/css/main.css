@@ -2490,9 +2490,7 @@ html.no-csstransitions .home-content__main {
 .masonry2s-brick {
   flex: auto;
   height: 250px;
-  min-width: 100%;
   position:relative;
-  min-height: 100%
   margin: 0 8px 8px 0; /* Some gutter */
 }
 
