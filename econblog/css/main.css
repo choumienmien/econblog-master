@@ -2981,7 +2981,7 @@ html.no-csstransitions .home-content__main {
   text-align: center;
 }
 .stats__col {
-  margin: 5.4rem 0;
+  margin: auto;
   padding: 0 2rem;
   position: relative;
   overflow: hidden;
@@ -2989,7 +2989,7 @@ html.no-csstransitions .home-content__main {
 }
 .stats__count {
   font-family: "Noto Sans TC", "metropolis-light", sans-serif;
-  font-size: 9.2rem;
+  font-size:7rem;
   line-height: 1;
   color: #ffffff;
   padding-bottom: 1.8rem;
@@ -3004,7 +3004,7 @@ html.no-csstransitions .home-content__main {
   height: 1px;
   width: 100px;
   background-color: rgba(255, 255, 255, 0.1);
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 50%;
   margin-left: -50px;
@@ -3023,51 +3023,34 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * stats
  * ------------------------------------------------------------------- */
+
  @media only screen and (max-width: 2500px) {
-   .stats__count {
-     font-size: 5rem;
-   }
- }
- .stats {
-   max-width: 2000px;
- }
+    .stats__count {
+      font-size: 5rem;
+    }
+  }
+  .stats {
+    max-width: 2000px;
+  }
 
 
 
- @media only screen and (max-width: 2200px) {
-   .stats__count {
-     font-size: 8rem;
-   }
- }
+  @media only screen and (max-width: 2200px) {
+    .stats__count {
+      font-size: 6.7rem;
+    }
+  }
 
- .stats {
-   max-width: 1500px;
- }
+  .stats {
+    max-width: 1500px;
+  }
 
- @media only screen and (max-width: 2000px) {
-   .stats__count {
-     font-size:8.2rem;
-   }
- }
+  @media only screen and (max-width: 2000px) {
+    .stats__count {
+      font-size:7rem;
+    }
+  }
 
-
- @media only screen and (max-width: 1400px) {
-     .stats__count {
-       font-size: 8.2rem;
-     }
-   }
-
- @media only screen and (max-width: 1300px) {
-   .stats {
-     max-width: 1000px;
-   }
-   .stats__col {
-     margin: 2.5rem ;
-   }
-   .stats__count {
-     font-size: 8.2rem;
-   }
- }
 
 
 @media only screen and (max-width: 1200px) {
