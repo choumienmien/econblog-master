@@ -75,7 +75,7 @@ b <- ggplot(city2,
   scale_fill_discrete(name="縣市",
                       breaks=c("Taoyuan","Taichung","NewTaipei","cTaipei","cTainan","Kaohsiung"
                              ,"aothers"),
-                      labels=c("桃園縣","台中市","新北市","台北市","台南市","高雄市"
+                      labels=c("桃園市","台中市","新北市","台北市","台南市","高雄市"
                              ,"其他十四縣市")
                       )+
   theme_minimal()
